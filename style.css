@@ -38,3 +38,58 @@ header nav ul li a {
   color: #fff;
   text-decoration: none;
 }
+
+#hero {
+  background:#3C5B6F;
+  padding: 2rem 0;
+}
+
+#about {
+  padding: 2rem 0;
+  background-color: #3C5B6F;
+}
+
+#portfolio {
+  padding: 2rem 0;
+  background-color: #3C5B6F;
+}
+
+#contact {
+  padding: 2rem 0;
+  background-color: #3C5B6F;
+}
+
+#portfolio-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+#portfolio-item {
+  flex: 1 1 calc(33.333% - 2rem);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #fff;
+}
+
+footer {
+  background: #3C5B6F;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 0.5rem;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
